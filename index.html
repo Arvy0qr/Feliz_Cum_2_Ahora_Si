@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feliz Cumpleaños!!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Playwrite+US+Trad&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Feliz Cumpleaños Bro</h1>
+        <p id="small">Dale click a la pagina</p>
+    </header>
+    <section class="container">
+        <article onclick="PlayAudio1()" class="POST">
+            <h2>Gracias</h2>
+            <p>Es dificil de decir pero,</p>
+            <img src="img/M1.png" width="500"/>
+            <p>Se que solo te conozco hace uno par años, pero a lo largo de estos me has acompañado como ninguna otra persona que conozco, y cada dia te vuelves mas especial para mi</p>
+        </article>
+        <article onclick="PlayAudio2()" class="POST">
+            <h2>Danke Schön</h2>
+            <p>Eres una persona increible, y nunca dejes que nadie te diga lo contrario</p>
+            <img src="img/M2.jpeg" width="500"/>
+            <p>No sabes lo lindo que se siente cuando se, que pesar que la cague y todo el mundo me pueda llegar a criticar, siempre estaras ahi, por eso para mi, eres parte de mi familia</p>
+        </article>
+        <article onclick="PlayAudio3()" class="POST">
+            <h2>Thank u</h2>
+            <p>Cliche or not, u are the best friend ever</p>
+            <img src="img/M3.jpeg" width="500"/>
+            <p>Te deseo lo mejor en este dia tan especial, que representa que has crecido como persona y ayudado a todos a tu alrededor a crecer tambien, incluyendome, al igual que a ser mejores versiones de si mismas, ojala sigas disfrutando de la vida y mostrando tanta incomparable amabilidad y empatia tan especial que tienes</p>
+        </article>
+        <article class="POST">
+            <h2>Moltes gràcies</h2>
+            <p>Me quedo corto</p>
+            <img src="img/M4.jpg" width="500">
+            <p>Me quedo corto de palabras para decirte cuanto importas para mi, que ni yo creo que con un diccionario en mano podria escribir lo que quiero expresar en este carta, solo me queda decirte, por 5 vez, gracias...</p>
+        </article>
+        <audio id="aud1">
+            <source src="aud/Ms1.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="aud2">
+            <source src="aud/Ms2.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="aud3">
+            <source src="aud/Ms3.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+    <footer>
+        <section><a target="_blank" href="https://www.instagram.com/arvy_qr/">Contacto</a></section>
+        <p>©Copyright 2024</p>
+        <p>Created By Your Beffo</p>
+    </footer>
+    <script>
+        function PlayAudio1(){
+            document.getElementById("aud1").play();
+        }
+        function PlayAudio2(){
+            document.getElementById("aud2").play();
+        }
+        function PlayAudio3(){
+            document.getElementById("aud3").play();
+        }
+    </script>
+</body>
+</html>
